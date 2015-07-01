@@ -6,5 +6,3 @@ def using_times
 
 end
 
-#call your method here!
-using_times
