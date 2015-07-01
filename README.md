@@ -96,4 +96,4 @@ We're still struggling to master that levitation charm. Since we need to keep pr
 3. You'll be coding your solutionin `times.rb`: 
 
   * Fill out the content of the `using_times` method so that calling it will puts out the desired phrase, `"Wingardium Leviosa"` seven times by using the `times` keyword.  
-  * Don't forget to call you method at the end of your file!
+  
