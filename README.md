@@ -85,34 +85,15 @@ puts "We have #{jewels_in_bag} still to hide"
 
 ```
 
-%%%
+# Using the `times` method
 
-## Using the `times` method
+We're still struggling to master that levitation charm. Since we need to keep practicing, let's write somd code that allows us to puts out the phrase "Wingardium Leviosa" seven times (instead of infinitely, like when we used just plain `loop`.)
 
-We're still struggling to master that levitation charm. Since we need to keep praciticing, let's write somd code that allows us to puts out the phrase "Wingardium Leviosa" seven times. This time, we want to achieve that result by writing fewer lines of code. With the `loop` keyword, we needed to write `puts "Wingardium Leviosa" seven times`. With the `times` keyword, we can do it with far fewer lines. 
+## Instructions
 
-Fill out the content of the `using_times` method so that calling it will puts out the desired phrase seven times by using the `times` keyword. 
+1. Fork and clone this lab.
+2. Run the test suite. 
+3. You'll be coding your solutionin `times.rb`: 
 
-```ruby
-def using_times
-	#your code here
-end
-
-~~~solution
-
-def using_times 
-	7.times do
-		puts "Wingardium Leviosa"
-	end
-end
-
-using_times
-
-~~~validation
-looping_string = "Wingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\n"
-
-expect{ using_times }.to output(looping_string).to_stdout
-
-```
-
-%%%
+  * Fill out the content of the `using_times` method so that calling it will puts out the desired phrase, `"Wingardium Leviosa"` seven times by using the `times` keyword.  
+  * Don't forget to call you method at the end of your file!
