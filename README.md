@@ -64,11 +64,11 @@ puts "We have #{jewels_in_bag} jewels still to hide"
 This is fun and all but so far we've only printed text within the block of code within the loop. What if we wanted to do something more, say keep track of the number of jewels we are hiding *as we hide them*? 
 
 ```ruby
-jewels_in_bag = 960
+jewels_in_bag = 100
 
 3.times do 
   puts "Hiding stolen jewels"
-  jewels_in_bag = jewels_in_bag - 250
+  jewels_in_bag = jewels_in_bag - 10
   puts "Now there are only #{jewels_in_bag} jewels left to hide!"
 end
 
