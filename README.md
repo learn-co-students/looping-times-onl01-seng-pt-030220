@@ -38,7 +38,7 @@ end
 
 Okay, that's fine but all we did was print text––what if we wanted to change the value of a variable within a loop? Let's see how that works: 
 
-You are a jewel thief who has stolen 960 very valuable jewels (you are a really good jewel thief). But now you need to unload your stolen jewels from your bag into the safe in your secret hideout.  
+You are a jewel thief who has stolen 100 very valuable jewels (you are a really good jewel thief). But now you need to unload your stolen jewels from your bag into the safe in your secret hideout.  
 
 ```ruby
 jewels_in_bag = 100
