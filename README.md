@@ -88,7 +88,7 @@ puts "We have #{jewels_in_bag} still to hide"
 
 # Using the `times` method
 
-We're still struggling to master that levitation charm. Since we need to keep practicing, let's write somd code that allows us to puts out the phrase "Wingardium Leviosa" seven times (instead of infinitely, like when we used just plain `loop`.)
+We're still struggling to master that levitation charm. Since we need to keep practicing, let's write some code that allows us to puts out the phrase "Wingardium Leviosa" seven times (instead of infinitely, like when we used just plain `loop`.)
 
 ## Instructions
 
