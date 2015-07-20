@@ -1,4 +1,11 @@
-# The Times Construct
+# The `times` Construct
+
+## Objectives
+
+1. Understand the `times` construct and how it implements looping
+2. Build a method using `times`
+
+## Introduction
 
 The next construct is `times`. There are two important distinctions to be mindful of when using `times`. The first one is that it has to be called on an Integer (like 1 or 10000). The second is that it executes the block a certain number of times, which is dependent on the number that it's called on. Let's look at the example below:
 
