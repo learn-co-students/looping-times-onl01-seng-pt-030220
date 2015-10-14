@@ -43,7 +43,7 @@ end
 
 ### Intermediate `times` Example: Crime Spree
 
-Okay, that's fine but all we did was print some text––what if we wanted to change the value of a variable within a loop? Let's see how that works: 
+Okay, that's fine, but all we did was print some text––what if we wanted to change the value of a variable within a loop? Let's see how that works: 
 
 You are a jewel thief who has stolen a hundred (100) very valuable jewels (you are a really good jewel thief). But now you need to unload your stolen jewels from your bag into the safe in your secret hideout!  
 
@@ -67,7 +67,7 @@ puts "We have #{jewels_in_bag} jewels still to hide!"
 
 #### Advanced `times` Example
 
-This is fun and all but so far we've only printed text within the block of code within the loop. What if we wanted to do something more, say keep track of the number of jewels we are hiding *as we hide them*? 
+This is fun and all, but so far we've only printed text within the block of code within the loop. What if we wanted to do something more, say, keep track of the number of jewels we are hiding *as we hide them*? 
 
 ```ruby
 jewels_in_bag = 100
