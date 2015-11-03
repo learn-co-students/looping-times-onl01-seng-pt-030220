@@ -39,6 +39,8 @@ end
 # > "I am doing the dishes left by my former friends."
 # > "I am doing the dishes left by my former friends."
 # > "I am doing the dishes left by my former friends."
+
+# => 7 (return value)
 ```
 
 ### Intermediate `times` Example: Crime Spree
@@ -55,6 +57,8 @@ jewels_in_bag = 100
   jewels_in_bag = jewels_in_bag - 10
 end
 
+# => 3 (return value)
+
 puts "We have #{jewels_in_bag} jewels still to hide!"
 
 
@@ -63,6 +67,9 @@ puts "We have #{jewels_in_bag} jewels still to hide!"
 # > "Hiding 10 stolen jewels."
 
 # > "We have 70 jewels still to hide!"
+
+# => nil (return value)
+
 ```
 
 #### Advanced `times` Example
@@ -77,9 +84,10 @@ jewels_in_bag = 100
   jewels_in_bag = jewels_in_bag - 10
   puts "Now there are only #{jewels_in_bag} jewels left to hide!"
 end
+# => 3 (return value)
 
 puts "We have #{jewels_in_bag} jewels still to hide!"
-
+# => nil (return value)
 
 # > "Hiding 10 stolen jewels."
 # > "Now there are only 90 jewels left to hide!"
@@ -89,6 +97,7 @@ puts "We have #{jewels_in_bag} jewels still to hide!"
 # > "Now there are only 70 jewels left to hide!"
 
 # > "We have 70 jewels still to hide!"
+
 ```
 
 ## Using the `times` method
