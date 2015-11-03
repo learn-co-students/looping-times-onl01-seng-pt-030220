@@ -32,13 +32,13 @@ Let's clean those dishes using the `times` method:
   puts "I am doing the dishes left by my former friends."
 end
 
-# => "I am doing the dishes left by my former friends."
-# => "I am doing the dishes left by my former friends."
-# => "I am doing the dishes left by my former friends."
-# => "I am doing the dishes left by my former friends."
-# => "I am doing the dishes left by my former friends."
-# => "I am doing the dishes left by my former friends."
-# => "I am doing the dishes left by my former friends."
+# > "I am doing the dishes left by my former friends."
+# > "I am doing the dishes left by my former friends."
+# > "I am doing the dishes left by my former friends."
+# > "I am doing the dishes left by my former friends."
+# > "I am doing the dishes left by my former friends."
+# > "I am doing the dishes left by my former friends."
+# > "I am doing the dishes left by my former friends."
 ```
 
 ### Intermediate `times` Example: Crime Spree
@@ -58,11 +58,11 @@ end
 puts "We have #{jewels_in_bag} jewels still to hide!"
 
 
-# => "Hiding 10 stolen jewels."
-# => "Hiding 10 stolen jewels."
-# => "Hiding 10 stolen jewels."
+# > "Hiding 10 stolen jewels."
+# > "Hiding 10 stolen jewels."
+# > "Hiding 10 stolen jewels."
 
-# => "We have 70 jewels still to hide!"
+# > "We have 70 jewels still to hide!"
 ```
 
 #### Advanced `times` Example
@@ -81,14 +81,14 @@ end
 puts "We have #{jewels_in_bag} jewels still to hide!"
 
 
-# => "Hiding 10 stolen jewels."
-# => "Now there are only 90 jewels left to hide!"
-# => "Hiding 10 stolen jewels."
-# => "Now there are only 80 jewels left to hide!"
-# => "Hiding 10 stolen jewels."
-# => "Now there are only 70 jewels left to hide!"
+# > "Hiding 10 stolen jewels."
+# > "Now there are only 90 jewels left to hide!"
+# > "Hiding 10 stolen jewels."
+# > "Now there are only 80 jewels left to hide!"
+# > "Hiding 10 stolen jewels."
+# > "Now there are only 70 jewels left to hide!"
 
-# => "We have 70 jewels still to hide!"
+# > "We have 70 jewels still to hide!"
 ```
 
 ## Using the `times` method
