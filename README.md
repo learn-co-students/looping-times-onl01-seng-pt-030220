@@ -1,4 +1,4 @@
-# The `times` Construct
+thanks# The `times` Construct
 
 ## Objectives
 
